@@ -86,14 +86,36 @@
 /************************************************************************/
 /******/ ({
 
+/***/ "./modules/header sync recursive \\.less$/i":
+/*!***************************************!*\
+  !*** ./modules/header sync \.less$/i ***!
+  \***************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("var map = {\n\t\"./style.less\": \"./modules/header/style.less\"\n};\n\n\nfunction webpackContext(req) {\n\tvar id = webpackContextResolve(req);\n\treturn __webpack_require__(id);\n}\nfunction webpackContextResolve(req) {\n\tvar id = map[req];\n\tif(!(id + 1)) { // check for number or string\n\t\tvar e = new Error(\"Cannot find module '\" + req + \"'\");\n\t\te.code = 'MODULE_NOT_FOUND';\n\t\tthrow e;\n\t}\n\treturn id;\n}\nwebpackContext.keys = function webpackContextKeys() {\n\treturn Object.keys(map);\n};\nwebpackContext.resolve = webpackContextResolve;\nmodule.exports = webpackContext;\nwebpackContext.id = \"./modules/header sync recursive \\\\.less$/i\";\n\n//# sourceURL=webpack:///./modules/header_sync_\\.less$/i?");
+
+/***/ }),
+
 /***/ "./modules/header/script.js":
 /*!**********************************!*\
   !*** ./modules/header/script.js ***!
   \**********************************/
 /*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("let req;\r\ntry { \r\n    req = !(function webpackMissingModule() { var e = new Error(\"Cannot find module 'undefined'\"); e.code = 'MODULE_NOT_FOUND'; throw e; }());\r\n    req.keys().forEach((key) => req(key));\r\n} catch(ex){} \r\n\r\nreq = __webpack_require__(\"./modules/header sync recursive \\\\.less$/i\");\r\nreq.keys().forEach((key) => req(key));\r\n\r\nconsole.log(\"custom script is executing...\")\n\n//# sourceURL=webpack:///./modules/header/script.js?");
+
+/***/ }),
+
+/***/ "./modules/header/style.less":
+/*!***********************************!*\
+  !*** ./modules/header/style.less ***!
+  \***********************************/
+/*! no static exports found */
 /***/ (function(module, exports) {
 
-eval("console.log(\"custom script is executing...\")\n\n//# sourceURL=webpack:///./modules/header/script.js?");
+eval("// removed by extract-text-webpack-plugin\n\n//# sourceURL=webpack:///./modules/header/style.less?");
 
 /***/ }),
 
